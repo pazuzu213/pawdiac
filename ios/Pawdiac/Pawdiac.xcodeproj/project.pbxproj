@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21384E9C406AAB0F05337D21 /* ObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B73CF2D47497BAB2C32314A /* ObservationView.swift */; };
+		2E734C30928CA716248F1B15 /* PawdiacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8597C7213A11EBCAE27F7 /* PawdiacApp.swift */; };
+		3B91681D81F2579AE4F135F1 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BCDDEEA4A3A2D7C9859DA0 /* TodayView.swift */; };
+		6ACF0D11ACEA7A3E17B4A7E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1D12CDA02D1C7C2105981D /* Assets.xcassets */; };
+		8646F9C263C3E81E14B5F970 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5357DA39A4D1813A434B1D /* Foundation.framework */; };
+		864F57E7F7AA75E251F9E252 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4293588B575CE27CE6EC2 /* ProfileView.swift */; };
+		A114ECA9367ACF02761BF10E /* PawdiacModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE563D30244CF8B234ACAE8D /* PawdiacModels.swift */; };
+		A9A0577D37FD9836CACF2344 /* PawdiacStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F6EE6234135ACF33436CE8 /* PawdiacStore.swift */; };
+		EDF91343B6B1102EA060D7E1 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8D8AA2D9CF5C1A62E8D903 /* RootView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B73CF2D47497BAB2C32314A /* ObservationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservationView.swift; path = Views/ObservationView.swift; sourceTree = "<group>"; };
+		14C4293588B575CE27CE6EC2 /* ProfileView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = Views/ProfileView.swift; sourceTree = "<group>"; };
+		B20BF7CB4D90760087DEDE1F /* Pawdiac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pawdiac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C8597C7213A11EBCAE27F7 /* PawdiacApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PawdiacApp.swift; sourceTree = "<group>"; };
+		CF8D8AA2D9CF5C1A62E8D903 /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = Views/RootView.swift; sourceTree = "<group>"; };
+		D0F6EE6234135ACF33436CE8 /* PawdiacStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PawdiacStore.swift; path = Services/PawdiacStore.swift; sourceTree = "<group>"; };
+		DB1D12CDA02D1C7C2105981D /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC5357DA39A4D1813A434B1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DE563D30244CF8B234ACAE8D /* PawdiacModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PawdiacModels.swift; path = Models/PawdiacModels.swift; sourceTree = "<group>"; };
+		E2BCDDEEA4A3A2D7C9859DA0 /* TodayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TodayView.swift; path = Views/TodayView.swift; sourceTree = "<group>"; };
+		FBDFC3E730376C2A00931228 /* PawdiacRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PawdiacRelease.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C7F154B3E9D202C7C06649B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8646F9C263C3E81E14B5F970 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209BD3E97CB52BDF21E35BA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20BF7CB4D90760087DEDE1F /* Pawdiac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F9B70B7EC0675BFF9778F4 /* Pawdiac */ = {
+			isa = PBXGroup;
+			children = (
+				FBDFC3E730376C2A00931228 /* PawdiacRelease.entitlements */,
+				DE563D30244CF8B234ACAE8D /* PawdiacModels.swift */,
+				C5C8597C7213A11EBCAE27F7 /* PawdiacApp.swift */,
+				D0F6EE6234135ACF33436CE8 /* PawdiacStore.swift */,
+				0B73CF2D47497BAB2C32314A /* ObservationView.swift */,
+				14C4293588B575CE27CE6EC2 /* ProfileView.swift */,
+				CF8D8AA2D9CF5C1A62E8D903 /* RootView.swift */,
+				E2BCDDEEA4A3A2D7C9859DA0 /* TodayView.swift */,
+				DB1D12CDA02D1C7C2105981D /* Assets.xcassets */,
+			);
+			path = Pawdiac;
+			sourceTree = "<group>";
+		};
+		C17074671B858099E5372522 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC5357DA39A4D1813A434B1D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4B4C1A065FCD771BD089735 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C17074671B858099E5372522 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC9E691B783AC07BCDB899B8 = {
+			isa = PBXGroup;
+			children = (
+				209BD3E97CB52BDF21E35BA3 /* Products */,
+				C4B4C1A065FCD771BD089735 /* Frameworks */,
+				26F9B70B7EC0675BFF9778F4 /* Pawdiac */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46D67CE70D3C23C4E84EF64F /* Pawdiac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C2DFDD38B9D42C3AA41AC6 /* Build configuration list for PBXNativeTarget "Pawdiac" */;
+			buildPhases = (
+				E11056E4CA35E01D6EC0B008 /* Sources */,
+				9C7F154B3E9D202C7C06649B /* Frameworks */,
+				299A6AFE315BB04545F3F4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pawdiac;
+			productName = Pawdiac;
+			productReference = B20BF7CB4D90760087DEDE1F /* Pawdiac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD7D498E2AA9562508C149B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					46D67CE70D3C23C4E84EF64F = {
+						DevelopmentTeam = 57LBSM2N3U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D65B05D79143857397C417B4 /* Build configuration list for PBXProject "Pawdiac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9E691B783AC07BCDB899B8;
+			productRefGroup = 209BD3E97CB52BDF21E35BA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D67CE70D3C23C4E84EF64F /* Pawdiac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		299A6AFE315BB04545F3F4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACF0D11ACEA7A3E17B4A7E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E11056E4CA35E01D6EC0B008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A114ECA9367ACF02761BF10E /* PawdiacModels.swift in Sources */,
+				2E734C30928CA716248F1B15 /* PawdiacApp.swift in Sources */,
+				A9A0577D37FD9836CACF2344 /* PawdiacStore.swift in Sources */,
+				21384E9C406AAB0F05337D21 /* ObservationView.swift in Sources */,
+				864F57E7F7AA75E251F9E252 /* ProfileView.swift in Sources */,
+				EDF91343B6B1102EA060D7E1 /* RootView.swift in Sources */,
+				3B91681D81F2579AE4F135F1 /* TodayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		141EA4F02583E5B62E6BFDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		5753C7B3055BA8B80BE2ED6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		F9433F01C443D1A920A79AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Pawdiac/PawdiacRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57LBSM2N3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pawdiac;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunnydays.pawdiac;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA056DB05118476337D749BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57LBSM2N3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pawdiac;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunnydays.pawdiac;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D65B05D79143857397C417B4 /* Build configuration list for PBXProject "Pawdiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141EA4F02583E5B62E6BFDFA /* Debug */,
+				5753C7B3055BA8B80BE2ED6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C2DFDD38B9D42C3AA41AC6 /* Build configuration list for PBXNativeTarget "Pawdiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9433F01C443D1A920A79AE6 /* Release */,
+				FA056DB05118476337D749BB /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD7D498E2AA9562508C149B6 /* Project object */;
+}

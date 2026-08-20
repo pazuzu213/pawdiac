@@ -1,0 +1,17 @@
+{
+  "name": "pawdiac-landing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pawdiac waitlist landing page and email capture.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "PORT=5082 node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
